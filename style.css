@@ -1,0 +1,167 @@
+	body{
+		background-image: url(apple.jpg);
+		background-size: cover;
+	}
+	.angular {
+			color: #22e21d;
+			font-family: times new roman;
+			font-size: 120%;
+			text-align: center
+			}
+	.valentina{
+		color: black;
+		font-family: times new roman;
+		font-size: 120%;
+		text-align: center
+		
+	}
+	.img{
+		position: absolute;
+		right: 130px;
+		top: 20px;
+		width: 80px;
+		height: 80px;
+	}
+	.quetn{
+		position: relative;
+		left: 130px;
+		bottom:41px;
+		width: 17px;
+		height: 17px;
+	}
+	.systemtrc{
+		position: absolute;
+		right: 70px;
+		top: 23px;
+		color: #17e8e2;
+		
+	}
+	/*.online    {
+			color: #3151ce; 
+			font-family: times new roman; 
+			font-size: 120%
+			}*/
+		
+		
+		/*.switch
+    {
+            width: 50px;
+            height: 30px;
+            position: relative;
+            display:inline-block;
+    }*/
+
+    /*.switch input
+    {
+            display: none;
+    }
+    */
+    /* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.main_head{
+	float: right;
+	width: 100%;
+	
+}
+.text{
+	text-align: right;
+	
+}
+.container{
+	
+	width: 100%;
+}
+    
+    
+    
+    .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float: right;
+}
+
+
+    .slider
+    {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            cursor: pointer;
+            background-color: gray;
+            border-radius: 30px;
+            float: right;
+
+    }
+    .slider:before
+    {
+
+        position: absolute;
+        background-color: #fff;
+        height: 20px;
+        width: 20px;
+        content: "";
+        left: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        transition: ease-in-out .5s;
+    }
+
+    .slider:after
+    {
+        content: "Off";
+
+        color: white;
+        display: block;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 70%;
+        transition: all .5s;
+        font-size: 10px;
+        font-family: Verdana,sans-serif;
+    }
+
+    input:checked + .slider:after
+    {
+        transition: all .5s;
+        left: 30%;
+        content: "On"
+
+    }
+    input:checked + .slider
+    {
+        background-color: blue;
+
+    }
+
+    input:checked + .slider:before
+    {
+        transform: translateX(20px);
+    }
+    .timer{
+		
+		    text-align: center;
+	}
